@@ -58,7 +58,7 @@ rShadow: Si el planeta es capaz de recibir sombra. `<Boolean>`
 text: Archivo de mapa de color. (Opcional) `<String>`  
 bump: Archivo de mapa bump. (Opcional) `<String>`  
 texalpha: Archivo de mapa de transparencia. (Opcional) `<String>`  
-normals: Archivo de mapa de normales. (Opcional) `<String>`
+normals: Archivo de mapa de normales. (Opcional) `<String>`  
 spec: Archivo de mapa especular. (Opcional) `<String>`    
 >   
 > **Returns:**  
