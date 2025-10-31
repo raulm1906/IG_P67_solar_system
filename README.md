@@ -59,8 +59,8 @@ text: Archivo de mapa de color. (Opcional) `<String>`
 bump: Archivo de mapa bump. (Opcional) `<String>`  
 texalpha: Archivo de mapa de transparencia. (Opcional) `<String>`  
 normals: Archivo de mapa de normales. (Opcional) `<String>`
-spec: Archivo de mapa especular. (Opcional) `<String>`  
-> 
+spec: Archivo de mapa especular. (Opcional) `<String>`    
+>   
 > **Returns:**  
 planeta: El planeta recién creado. `<THREE.Mesh>`
 
@@ -114,6 +114,7 @@ for ( var c = 0, j = 0; j <= phiSegments; j ++ ) {
 ```
 
 Textura del anillo:
+
 ![plot](./textures/saturn/2k_saturn_ring_alpha_vert.png)
 
 La textura además se aplica en ambas caras del anillo, y permite aplicar la transparencia tanto como una textura aparte, como en la misma textura de color en formato `.png`.
